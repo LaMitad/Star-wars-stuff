@@ -16,6 +16,8 @@ $request = Request::createFromGlobals();
 //$response->send();
 //$kernel->terminate($request, $response);
 
+//test
+
 $container = $kernel->getContainer();
 $container->enterScope('request');
 $container->set('request', $request);
