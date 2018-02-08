@@ -16,7 +16,7 @@ $request = Request::createFromGlobals();
 //$response->send();
 //$kernel->terminate($request, $response);
 
-//test
+//test de sa mere la pute
 
 $container = $kernel->getContainer();
 $container->enterScope('request');
